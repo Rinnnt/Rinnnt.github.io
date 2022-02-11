@@ -43,4 +43,4 @@ for permutation in permutations:
 The python code correctly outputs 4375, the only solution to the equaion.
 
 
-[Back](../index.html)
+[Back](rinnnt.github.io)
