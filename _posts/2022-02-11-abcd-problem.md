@@ -14,7 +14,7 @@ With 4 variables that could range from 0-9 (except A), it is obvious that we sho
 ### Python
 Instead, we can brute force check every single possible 4 digit number to see if the equation holds. First, enumerate all the possibilities. One way to do this is through nesting 4 for loops, but recursion can provide more concise code (No efficiency improvements though, since the number of distinct 4 digit numbers is constant, and each number is checked).
 
-```
+```python
 permutations = []
 
 def permute(currentpermutation, length):
@@ -33,7 +33,7 @@ permute([], 4)
 
 The length variable allows us to generalize to n-digit numbers shall we ever need it. Then we just have to check if the equation is satisfied for each possibility.
 
-```
+```python
 for permutation in permutations:
     num = permutation[0] * 1000 + permutation[1] * 100 + permutation[2] * 10 + permutation[3]
     if num == permutation[2] * (permutation[3] ** permutation[0]):
