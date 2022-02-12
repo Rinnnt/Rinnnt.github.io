@@ -2,7 +2,7 @@
 layout: post
 title: "ABCD problem"
 date: 2022-02-11
-categories: problems python
+categories: python
 ---
 
 ### ABCD
