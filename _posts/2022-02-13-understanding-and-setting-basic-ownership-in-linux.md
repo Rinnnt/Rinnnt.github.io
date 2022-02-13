@@ -3,11 +3,14 @@ layout: post
 title: "Understanding and Setting Basic Ownership in Linux"
 date: 2022-02-13
 categories: linux
+excerpt_separator: <!--more-->
 ---
 
 ### Ownership
 
-In Linux, there can exist more than one user that has access to one machine. To obtain security within this multi-user OS, users (and groups) can have *ownership* over files, directories and processes that determine the permission granted to any other user. *Root* can change ownership of all files and directories.
+In Linux, there can exist more than one user that has access to one machine. To obtain security within this multi-user OS, users (and groups) can have *ownership* over files, directories and processes that determine the permission granted to any other user.
+<!--more-->
+*Root* can change ownership of all files and directories.
 
 ### Using CLI for ownership
 
