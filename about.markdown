@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Yejun Kang. 
+Hi, my name is Yejun Kang. 
 This is a collection of notes on computer science topics.
 
 * * *
