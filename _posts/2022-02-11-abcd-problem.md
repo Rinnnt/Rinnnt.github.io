@@ -3,6 +3,7 @@ layout: post
 title: "ABCD problem"
 date: 2022-02-11
 categories: python
+excerpt_separator: <!--more-->
 ---
 
 ### ABCD
@@ -10,6 +11,7 @@ This question is taken from [Art of Problem Solving](https://artofproblemsolving
 The question asks us:
 
 > Can you find a four-digit number ABCD satisfying ABCD = C * D^A?
+<!--more-->
 
 ### Maths
 With 4 variables that could range from 0-9 (except A), it is obvious that we should try to reduce the solution space. By spotting that the value ABCD is mostly determined by D^A, the number of possible pairs (D, A) is greatly reduced by limiting it between 999 < D^A < 10,000. Then, the number of possible values of C for each pair (D, A) is further reduced. Then the solution space is small enough for simple brute force checking.
