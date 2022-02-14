@@ -61,6 +61,7 @@ How do we check if Jekyll-seo-tag is working or not? Simply go to your site usin
 <!-- Begin Jekyll SEO tag v(version) -->
 ...
 <!-- End Jekyll SEO tag-->
+```
 
 
 [Back](/)
