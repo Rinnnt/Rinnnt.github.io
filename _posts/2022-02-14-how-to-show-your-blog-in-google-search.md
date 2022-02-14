@@ -51,7 +51,7 @@ plugins:
 ```
 Finally, add the following right before </head> in your site's templates, by default it is in the directory `_includes` and in the file `head.html`. Delete duplicates if necessary:
 ```
-{% seo %}
+"{% seo %}"
 ```
 
 Jekyll-seo-tag is installed! Make sure your pages have YAML front matter so that jekyll-seo-tag can use the front matter information to create the metadata. For more usage information consult [Usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md).
