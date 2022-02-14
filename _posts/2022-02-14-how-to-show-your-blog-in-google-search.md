@@ -45,12 +45,18 @@ To use Jekyll-seo-tag, add the following line at the bottom of your site's `Gemf
 gem 'jekyll-seo-tag'
 ```
 Then add the following to your site's `_config.yml`:
-```yaml
+```yml
 plugins:
  - jekyll-seo-tag
 ```
 Finally, add the following right before </head> in your site's templates, by default it is in the directory `_includes` and in the file `head.html`. Delete duplicates if necessary: <br>
-\{% seo %\}
+<!-- {% raw %} -->
+  ```liquid
+  {% seo %}
+  ```
+<!-- {% endraw %} -->
+
+Follow [Installation]()
 
 Jekyll-seo-tag is installed! Make sure your pages have YAML front matter so that jekyll-seo-tag can use the front matter information to create the metadata. For more usage information consult [Usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md).
 
