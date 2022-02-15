@@ -69,7 +69,7 @@ How do we check if Jekyll-seo-tag is working or not? Simply go to your site usin
 <!-- End Jekyll SEO tag-->
 ```
 
-As a final note, this idea can be generalized to many other search engines, like Bing. You can make your website show up in Bing (and other search engines) searches in pretty much the same way!
+As a final note, this idea can be generalized to many other search engines, like Bing. Bing's counterpart of google search console is called Bing Webmaster tools. You can make your website show up in Bing (and other search engines) searches in pretty much the same way!
 
 
 [Back](/)
