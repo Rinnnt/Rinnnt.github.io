@@ -22,6 +22,7 @@ Regular Expressions (Regex) can be difficult to learn, but also very rewarding w
 - `(x)` - Use parentheses to group regular expressions
 - `x|y` - Use vertical bars for logical OR
 - `\` - Use backslash to escape special characters like + and *, or use shortcuts
+    * `\b` as a boundary marker
     * `\d` for digits
     * `\w` for alphanumeric chars
     * `\s` for whitespace (space, tab, newline etc.)
