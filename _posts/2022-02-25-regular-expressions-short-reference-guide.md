@@ -27,6 +27,7 @@ Regular Expressions (Regex) can be difficult to learn, but also very rewarding w
     * `\w` for alphanumeric chars
     * `\s` for whitespace (space, tab, newline etc.)
     * `\D` `\W` `\S` for any char <i>except</i> digits/alphanumeric/whitespaces
+- `.` - dot for any char except newline
 - `^` - Caret outside of square brackets matches for start of string
 - `$` - Dollar sign for end of the string
 
