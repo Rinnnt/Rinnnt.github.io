@@ -12,9 +12,9 @@ Starting out learning javascript can be quite difficult due to some technical te
 
 #### 1. Runtime
 
-Strictly speaking, the runtime refers to the period of time during which the code is running. Runtime environment on the other hand, is the hardware or software infrastructure that is supporting the execution of code and making it run. However, frequently people refer to javascript runtime environment as the javascript runtime. Examples of runtime environments are:
+Strictly speaking, the runtime refers to the period of time during which the code is running. Runtime environment on the other hand, is the hardware or software infrastructure that is supporting the execution of code and making it run. However, people frequently refer to javascript runtime environment as the javascript runtime. Examples of runtime environments are:
 - V8 javascript engine for chrome
-- Spideronkey for firefox
+- SpiderMonkey for firefox
 - Node for running javascript outside a browser (uses V8)
 Simply put, the runtime environment is what handles the execution of javscript code. The browser itself could be said to provide a runtime environment as well, comprised of V8 among other things in the case of chrome.
 
