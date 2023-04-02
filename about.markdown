@@ -9,4 +9,4 @@ This is a collection of notes on computer science topics.
 
 * * *
 
-[Github Account](github.com/Rinnnt)
+[Github Account](https://github.com/Rinnnt)
