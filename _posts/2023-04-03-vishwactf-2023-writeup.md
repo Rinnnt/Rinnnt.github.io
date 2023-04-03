@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 Writeup for VishwaCTF 2023 challenges: ReverseHill, WednesdayThursdayFriday, PhiCalculator. Finished as 188th, with 8 flags and 1190 points. <!--more-->
 
 
-### Reverse Hill (300 Points, 20 Solves)
+# Reverse Hill (300 Points, 20 Solves)
 
 Start by decompiling the ELF with IDA.
 
@@ -165,7 +165,7 @@ Flag: `VishwaCTF{matrix_the_way_around}`
 
 
 
-### Wednesday Thursday Friday (283 Points, 86 Solves)
+# Wednesday Thursday Friday (283 Points, 86 Solves)
 
 Start by looking at the decompiled main in IDA
 
@@ -314,7 +314,7 @@ for i in range(256):
 Flag: `VishwaCTF{N3V3r_60NN4_61V3_Y0U_UP}`
 
 
-### Phi-Calculator (136 Points, 322 Solves)
+# Phi-Calculator (136 Points, 322 Solves)
 
 This challenge was much easier, with the source code provided in python.
 
