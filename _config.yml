@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CompSciNotes
+title: Rinnnt
 author: Yejun Kang
 email: tommykang77@naver.com
-tagline: Notes on Computer Science Topics
+tagline: Rinnnt's personal blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Notes on Computer Science Topics
+  Rinnnt's personal blog on interesting and random things
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rinnnt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Rinnnt

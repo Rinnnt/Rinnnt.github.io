@@ -64,6 +64,3 @@ chmod [OPTION]... OCTAL-MODE FILE...
 ```
 
 The chmod also performs in symbolic-mode, which can be more flexible than the octal-mode. However, symbolic mode is beyond the scope of this post.
-
-
-[Back](/)

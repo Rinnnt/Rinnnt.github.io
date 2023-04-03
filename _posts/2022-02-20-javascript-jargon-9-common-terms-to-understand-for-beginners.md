@@ -62,6 +62,3 @@ Here are some resources I found extremely helpful when trying to understand this
 - [JSConf talk by Philip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ&ab_channel=JSConf)
 - [Javascript runtime by Gemma Stiles on Medium](https://medium.com/@gemma.stiles/understanding-the-javascript-runtime-environment-4dd8f52f6fca)
 - [Interactive visualization of Javascript runtime](http://latentflip.com/loupe)
-
-
-[Back](/)

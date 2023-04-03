@@ -62,5 +62,3 @@ Dynamic Array: <br>
 - add_at_i: O(n)
 
 This [MIT opencourseware video](https://www.youtube.com/watch?v=CHhwJjR0mZA&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=2&ab_channel=MITOpenCourseWare) on the topic is highly recommended for further information.
-
-[Back](/)

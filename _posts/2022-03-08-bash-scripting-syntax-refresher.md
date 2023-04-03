@@ -107,5 +107,3 @@ Call the function with its function name, with no brackets after it.
 Here are some resources that may help you to learn more:<br>
 [Ryan Tutorials - Bash Scripting](https://ryanstutorials.net/bash-scripting-tutorial/)<br>
 [Hackersploit Bash Scripting](https://hackersploit.org/bash-scripting/)
-
-[Back](/)

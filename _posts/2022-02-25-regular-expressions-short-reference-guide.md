@@ -30,6 +30,3 @@ Regular Expressions (Regex) can be difficult to learn, but also very rewarding w
 - `.` - dot for any char except newline
 - `^` - Caret outside of square brackets matches for start of string
 - `$` - Dollar sign for end of the string
-
-
-[Back](/)
