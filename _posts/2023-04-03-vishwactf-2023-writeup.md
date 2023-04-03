@@ -6,7 +6,7 @@ categories: ctf
 excerpt_separator: <!--more-->
 ---
 
-Finished as 188th, with 8 flags and 1190 points.<br>
+Finished as 187th out of 1813, with 8 flags and 1189 points.<br>
 Writeup for VishwaCTF 2023 challenges:
 - [Reverse Hill (300 Points, 20 Solves)](#reverse-hill-300-points-20-solves)
 - [WednesdayThursdayFriday (283 Points, 86 Solves)](#wednesday-thursday-friday-283-points-86-solves)
