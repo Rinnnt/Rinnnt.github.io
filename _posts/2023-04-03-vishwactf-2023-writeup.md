@@ -158,8 +158,8 @@ float *function3()
 }
 ```
 
-`function3` replaces an element at a randomly chosen index (`3 * v6 + v5`) with a random value (`rand() / 1.0e10`).<br>
-This is probably the function that is messing up the decryption process, causing rubbish to be printed out when executed.<br>
+`function3` replaces an element of `c` at a randomly chosen index (`3 * v6 + v5`) with a random value (`rand() / 1.0e10`).<br>
+This is the function that is messing up the inverse matrix `b` and hence the decryption process, causing rubbish to be printed out when executed.<br>
 We can either patch this or manually skip it by using a debugger, to get our flag printed out:
 
 ```bash
@@ -230,7 +230,7 @@ Plugging the equations directly into `z3` will not solve the problem. After clos
 If all characters were variables, this would be extremely difficult. But given that we lack so many equations, we probably can get more information elsewhere.<br>
 
 The flag format for this CTF is *"VishwaCTF{}"*. This string has length 11. exactly the amount of equations we lacked. (34 - 23 == 11).<br>
-Now we can assume directly plug in values for `s[0]` up to `s[9]` and `s[33]`, and solve with `z3`!
+Now we can directly plug in values for `s[0]` up to `s[9]` and `s[33]`, and solve with `z3`!<br>
 Or maybe not.<br>
 `z3` still takes way too long. Let's try to learn more about this system of equations.<br>
 Let's first try to manually substitute the values in for the characters we know.
@@ -268,7 +268,7 @@ The second has: `s[10]`, `s[11]`, `s[12]`.<br>
 The third has:  `s[10]`, `s[11]`, `s[12]`, `s[13]`.<br>
 And so on.<br>
 
-This is extremely helpful as if we know `s[10]`, we would know `s[11]` directly from the first equation.<br>
+This is extremely helpful: if we know `s[10]`, we would know `s[11]` directly from the first equation.<br>
 Knowing `s[10]` and `s[11]` now, we would know `s[12]` directly from the second equation.<br>
 And so on.<br>
 
