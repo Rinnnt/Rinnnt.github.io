@@ -5,8 +5,10 @@ permalink: /about/
 ---
 
 Hi, my name is Yejun Kang. 
-This is a collection of notes on computer science topics.
+This is a personal blog / collection of random things that interest me.
 
 * * *
+
+<br>
 
 [Github Account](https://github.com/Rinnnt)
