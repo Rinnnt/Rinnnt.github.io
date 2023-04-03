@@ -6,7 +6,11 @@ categories: ctf
 excerpt_separator: <!--more-->
 ---
 
-Writeup for VishwaCTF 2023 challenges: [ReverseHill](#reverse-hill-300-points-20-solves), [WednesdayThursdayFriday](#wednesday-thursday-friday-283-points-86-solves), [PhiCalculator](#phi-calculator-136-points-322-solves). Finished as 188th, with 8 flags and 1190 points. <!--more-->
+Finished as 188th, with 8 flags and 1190 points.<br>
+Writeup for VishwaCTF 2023 challenges:
+- [Reverse Hill (300 Points, 20 Solves)](#reverse-hill-300-points-20-solves)
+- [WednesdayThursdayFriday (283 Points, 86 Solves)](#wednesday-thursday-friday-283-points-86-solves)
+- [PhiCalculator (136 Points, 322 Solves)](#phi-calculator-136-points-322-solves)<!--more-->
 
 <br>
 
