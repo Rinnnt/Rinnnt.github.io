@@ -75,6 +75,7 @@ The `main()` function initializes the map, and sets the player's position to (20
 Then it allows the user to move the player in 8 different directions using the keyboard:
 (`Q` - NorthWest, `W` - North, `E` - NorthEast, `A` - West, `D` - East, `Z` - SouthWest, `S` - South, `C` - SouthEast).
 In addition to these keys, the program also accepts the key `R`, and provides the user with a random Double.
+
 ![Random Double printed out by server](/assets/images/bucketctf-2023-maze2.png)
 
 Lastly, the flag is printed out if there is an `ArrayIndexOutOfBoundsException`.
@@ -269,20 +270,7 @@ while True:
         if c == 'Q':
             x -= 1
             y -= 1
-        if c == 'W':
-            x -= 1
-        if c == 'E':
-            x -= 1
-            y += 1
-        if c == 'A':
-            y -= 1
-        if c == 'S':
-            x += 1
-        if c == 'D':
-            y += 1
-        if c == 'Z':
-            x += 1
-            y -= 1
+        # ...
         if c == 'C':
             x += 1
             y += 1
