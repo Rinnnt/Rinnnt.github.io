@@ -200,6 +200,7 @@ Although it might not seem like much, something interesting is revealed when we 
 
 The path element moves down!
 Changing the character combination moves the path elements vertically.
+I believe this is because when the arrows are clicked, the `<details>` tag elements are opened, and more space is taken up. This pushes other content in the same `div` further down.
 Wait, but why is there a bar missing in the path element?
 
 If we look back at the source code more carefully, there is a sneaky `div` hidden behind everything, using css property `z-index:0`.
